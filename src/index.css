@@ -1,0 +1,86 @@
+.header {
+    margin-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    box-shadow: 0px 4px 10px rgba(97, 162, 58, 0.2), 0px 4px 50px rgba(94, 236, 54, 0.5), 0px 4px 4px rgba(17, 168, 26, 0.2);
+    
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.photo-card {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-form {
+    padding: 15px 15px;
+
+}
+
+input {
+    font-size: 16px;
+}
+
+.button-submit {
+padding: 5px 5px;
+}
+
+.button-submit:focus,
+.button-submit:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.more-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.load-more {
+    font-size: 16px;
+    padding: 10px 10px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.load-more:focus,
+.load-more:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
